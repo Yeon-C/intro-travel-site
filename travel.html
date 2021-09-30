@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Travel Site</title>
+</head>
+<body>
+
+    <h1>Welcome to my Travel Site</h1>    
+    <p>This site is all about where I want to travel.</p>
+    <h2>Here are some places I would like to visit</h2>
+
+      <ul>
+        <li>
+          <img style='border:1px solid #000000'
+          src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg" width="50">
+          <a style="text-decoration: none;"
+          href="https://guidetoiceland.is/" target="_blank">Iceland</a>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" width="50" border="1" />
+          <a href="https://www.japan-guide.com/e/e623.html" target="_blank">Japan</a>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" width="50">
+          <a href="https://www.nomadicmatt.com/travel-guides/italy-travel-tips/" target="_blank">Italy</a>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg" width="50">
+          <a href="https://www.gohawaii.com/" target="_blank">Hawaii</a>
+        </li>
+      </ul>
+
+<!-- This is where our list ended -->
+
+<table>
+    <tr>
+      <th>Destination</th>
+      <th>Capital</th>
+      <th>Official Language</th>
+    </tr>
+    <tr>
+      <td>Iceland</td>
+      <td>Reykjavík</td>
+      <td>Icelandic</td>
+    </tr>
+    <tr>
+      <td>Japan</td>
+      <td>Tokyo</td>
+      <td>Japanese</td>
+    </tr>
+    <tr>
+      <td>Italy</td>
+      <td>Rome</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Hawaii</td>
+      <td>Honolulu</td>
+      <td>English</td>
+    </tr>
+  </table>
+
+  <h2>Where do you want to visit?</h2>
+  <form>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" value="Titus Bobbinger"><br>
+    <p>Select any that apply:</p>
+    <label for="spain">Spain</label>
+    <input type="checkbox" id="spain" name="spain"><br> 
+    
+    <label for="france">France</label>
+    <input type="checkbox" id="france" name="france"><br>
+
+    <label for="portugal">Portugal</label>
+    <input type="checkbox" id="portugal" name="portugal"><br>
+
+    <label for="china">China</label>
+    <input type="checkbox" id="china" name="china"><br>
+<br>
+    <label for="type">What is your favorite type of travel locations?
+        <select id="type" name="type">
+            <option value="beach">Beach</option>
+            <option value="mountains">Mountains</option>
+            <option value="city" selected>City</option><br>
+        </select>
+</form>
+<br><br>
+<textarea id="bio" name="bio" rows="7" cols="50">Tell me a bit more about yourself.
+</textarea>
+<br><br>
+<input type="submit" value="Ok Go!">
+<!-- Basic <span> example -->
+
+    <p>
+        Any kind of <span>content</span> here.
+      </p>
+<br><br>
+<a href="mailto:johncho1997@gmail.com">Email User</a>
+</body>
+</html>
